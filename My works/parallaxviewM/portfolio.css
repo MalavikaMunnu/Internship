@@ -1,0 +1,102 @@
+    body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("img_parallax.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("img_parallax2.jpg");
+  min-height: 400px;
+}
+
+.circle{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.circle1{
+    height: 115px;
+    width: 115px;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 28px;
+}
+
+#p1{
+    position: absolute;
+    top: 75px;
+    left: 157px;
+}
+
+#p2{
+    position: absolute;
+    top: 75px;
+    left: 432px;
+}
+
+#p3{
+    position: absolute;
+    top: 75px;
+    left: 740px;
+}
+
+#p4{
+    position: absolute;
+    top: 75px;
+    left: 1040px;
+}
+
+#p1:hover,#p2:hover,#p3:hover,#p4:hover{
+    transform: scale(1.20);
+}
+
+.bgimg-3 {
+  background-image: url("img_parallax3.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}

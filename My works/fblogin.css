@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(242, 246, 249);
+}
+
+.fbheader{
+    background-color: #426782;
+    height: 75px;
+    position: relative;
+}
+
+.fblogo{
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 16px;
+    left: 85px;
+}
+
+.f1{
+    position: absolute;
+    height: 30px;
+    left: 982px;;
+    top: 27px
+}
+
+button{
+    background-color: #426782;
+}
+
+h6{
+    color:white;
+    position: absolute;
+    top: 30px;
+    height: 28px;
+    width: 100px;
+    left:152px;
+}
+
+#f2{
+    position: relative;
+    left: 86px;
+    top: 29px;
+}
+
+h4{
+    font-size: 25px;
+}
+
+h1{
+    position: absolute;
+    top: 90px;
+    left: 982px;
+}
+
+#p1{
+    position: absolute;
+    top: 133px;
+    left: 982px;;
+}
+
+.c1{
+    position: absolute;
+    height: 30px;
+    top: 160px;
+    left: 982px;
+}
+
+.c2{
+    position: absolute;
+    height: 30px;
+    width: 173px;
+    top: 160px;
+    left: 1155px;
+}
+
+.c3{
+    position: absolute;
+    width: 346px;
+    height: 30px;
+    top: 195px;
+    left: 982px;
+}
+
+.c4{
+    position: absolute;
+    width: 346px;
+    height: 30px;
+    top: 230px;
+    left: 982px;
+}
+
+#p2{
+    position: absolute;
+    top: 275px;
+    left: 982px;
+}
+
+.c5{
+    position: absolute;
+    width: 168px;
+    height: 30px;
+    top: 22px;
+    left: 1px;
+}
+
+#p3{
+    position: absolute;
+    top: 330px;
+    left: 982px;
+}
+
+#p4{
+    position: absolute;
+    width: 210px;
+    height: 24px;
+    top: 350px;
+    left: 1000px;
+}
+
+span{
+    color: #426782;
+}
+
+#p5{
+    font-size: 12px;
+    position: absolute;
+    width: 323px;
+    height: 24px;
+    top: 380px;
+    left: 982px;
+}
+
+#b1{
+    position: absolute;
+    width: 143px;
+    background-color: rgb(2, 135, 2);
+    color: white;
+    border-radius: 3px;
+    height: 28px;
+    top: 445px;
+    left: 982px;
+} 
